@@ -28,7 +28,7 @@ namespace bai16_format_texxxt
 
         private void label1_Click(object sender, EventArgs e)
         {
-            string ten = "nguyen thanh dat:";
+            string ten = "Nguyễn Thành Đạt:";
             lblInfo.Text = "Họ và tên thí sinh:" + ten + Environment.NewLine;
             lblInfo.Text += "ngày viết:" + System.DateTime.Now;
         }
